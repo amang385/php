@@ -1,8 +1,8 @@
 $uploads_dir = '/photo/';
 
-  echo $_FILES["photo"]["name"]; 
-  echo $_FILES["photo"]["size"];
-  echo $_FILES["photo"]["type"];
+  $_FILES["photo"]["name"]; 
+  $_FILES["photo"]["size"];
+  $_FILES["photo"]["type"];
   $pname = $_FILES["photo"]["name"]; 
   $tname=$_FILES["photo"]["tmp_name"];
 
